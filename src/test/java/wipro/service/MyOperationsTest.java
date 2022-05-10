@@ -28,12 +28,12 @@ public class MyOperationsTest {
 	
 	@Test
 	public void testGetFullName1() {
-		assertEquals(" Jeypal", new MyOperations().getFullName(null, "Jeypal"));
+		assertEquals("Jeypal", new MyOperations().getFullName(null, "Jeypal"));
 	}
 	
 	@Test
 	public void testGetFullName2() {
-		assertEquals("INVALID_INPUT", new MyOperations().getFullName("Prabhu", null));
+		assertEquals("Prabhu", new MyOperations().getFullName("Prabhu", null));
 	}
 
 }
